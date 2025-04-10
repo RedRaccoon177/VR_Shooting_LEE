@@ -56,7 +56,7 @@ public class FireRaycast : MonoBehaviour
     /// <summary>
     /// 레이저 발사 처리 (실제로 병 맞추기)
     /// </summary>
-    private void Fire()
+    public void Fire()
     {
         // 머즐 플래시 이펙트 생성
         if (muzzleFlashPrefab != null)
